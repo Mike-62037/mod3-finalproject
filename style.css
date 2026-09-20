@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+}
+
+.purple {
+  color: #6415ff
+}
+
+
+/* NAV BAR */
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+nav {
+  padding-top: 32px;
+  display: flex;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  padding-bottom: 4px;
+}
+
+.nav__logo--img {
+  height: 40px;
+  width: 40px;
+}
+
+.nav__logo--title {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  margin-left: 12px;
+  padding-bottom: 2px;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__links--button {
+  border-radius: 500px;
+  background: #6415ff;
+  border: none;
+  color: #fff;
+  padding: 12px 32px;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.nav__link {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.40px;
+  position: relative;
+  margin: 24px 24px;
+  padding-top: 4px;
+  border-bottom: 2px;
+}
+
+.nav__link:hover {
+  content: "";
+  position: absolute;
+  background: #6415ff;
+  transition: all 300ms ease;
+  opacity: 0;
+}
+
+/* HEADER / ABOUT US */
+
+section {
+  padding: 0 32px;
+  margin: 0 20px
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__description {
+  width: 40%;
+}
+
+.header__description--para {
+  margin: 32px 0;
+}
+
+.header__email {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 448px;
+  height: 68px;
+  position: relative;
+  justify-items: flex-end;
+}
+
+img {
+  width: 100%;
+}
+
+.header__img--wrapper {
+  width: calc(100% - 40%);
+}
+
+.header__img {
+  width: 100%;
+  max-width: 768px;
+}
