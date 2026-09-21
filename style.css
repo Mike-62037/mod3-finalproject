@@ -17,6 +17,11 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 a {
   display: inline;
   text-decoration: none;
@@ -128,6 +133,13 @@ nav {
 /* HEADER / ABOUT US */
 
 
+.header__customers--title {
+  margin-top: 48px;
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 .landing {
   padding: 32px 32px;
 }
@@ -140,6 +152,12 @@ header .row {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header__customers {
+  margin-top: 16px;
+  opacity: 0.5;
+  padding-right: 128px;
 }
 
 .header__description {
@@ -177,7 +195,7 @@ header .row {
 }
 
 .header__email--button:hover {
-  background-color: rgba(60, 13, 153)
+  background-color: rgba(60, 13, 153);
 }
 
 
@@ -191,6 +209,7 @@ header .row {
   border: 2px solid rgb(229, 231, 235);
   top: 0;
   bottom: 0;
+  font-weight: 500;
   color: rgb(36, 62, 99);
 }
 
@@ -205,6 +224,8 @@ img {
 
 .header__img--wrapper {
   width: calc(100% - 40%);
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header__img {
