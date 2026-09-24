@@ -259,10 +259,16 @@ img {
   color: #6415ff;
   flex-wrap: wrap;
   display: flex;
+  font-size: 16px;
 }
 
 .feature {
   width: calc(100% / 3);
+}
+
+.feature__text {
+  margin-top: 8px;
+  margin-left: 16px;
 }
 
 .feature__img {
@@ -278,7 +284,7 @@ img {
 
 .feature__img--wrapper {
   display: flex;
-  border-radius: 300px;
+  border-radius: 500px;
   border: 1px solid #e5e7eb;
   padding: 20px;
 }
@@ -289,7 +295,6 @@ img {
   margin-top: 16px;
   font-weight: 500;
   line-height: 2;
-
 }
 
 .row__features {
@@ -300,9 +305,19 @@ img {
 
 .section__title {
   text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  line-height: 1.5;
+  margin: 16px 0;
+  letter-spacing: 0.0025em;
 }
 
 .section__para {
   max-width: 576px;
   text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  line-height: 1.625;
 }
