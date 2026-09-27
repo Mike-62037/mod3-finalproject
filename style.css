@@ -1203,7 +1203,7 @@ footer {
   width: 16px;
 }
 
-/* MOBILE */
+/* MOBILE RESPONSIVENESS */
 
 @media (max-width: 1280px) {
   header .row {
