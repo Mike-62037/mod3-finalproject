@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/6487f0a3d4.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
   <title>Module 3 Final Project</title>
 </head>
 <body>
@@ -23,10 +24,33 @@
           <a href="#" class="nav__link">Pricing</a>
           <a href="#" class="nav__link">Contact Us</a>
           <a href="#" class="nav__link">Login</a>
-          <a href="#" ><button class="nav__button">Sign Up</button></a>
+          <a href="#" ><button class="nav__button">Sign up</button></a>
         </div>
+        <button class="button__menu" onclick="openMenu()">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg">
+    <line x1="3" y1="12" x2="21" y2="12"></line>
+    <line x1="3" y1="6" x2="21" y2="6"></line>
+    <line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</button>
       </div>
     </nav>
+    <div class="modal">
+  <button class="button__menu button__menu--close" onclick="closeMenu()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="18" y1="6" x2="6" y2="18"></line>
+      <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>
+  </button>
+  <div class="modal__links">
+    <a class="modal__link">About</a>
+    <a class="modal__link">Blog</a>
+    <a class="modal__link">Pricing</a>
+    <a class="modal__link no-cursor">Contact Us</a>
+    <a class="modal__link">Login</a>
+    <a class="modal__link modal__link--primary">Sign Up</a>
+  </div>
+</div>
     <header>
     <div class="container">
       <div class="row">
